@@ -1,0 +1,25 @@
+---
+title: "Git commands"
+author: "PJL"
+date: "May 27, 2017"
+output: html_document
+---
+# Create package
+http://tinyheero.github.io/jekyll/update/2015/07/26/making-your-first-R-package.html
+
+
+
+# Git 
+- create repo in git
+- open terminal
+- change to working dir on computer
+- git init
+- git pull https://github.com/syrindi/newpack
+    - pulls files from the git directory
+- Make changes
+- git add -A
+- git commit -m "message"
+- git remote add origin https://github.com/syrindi/newpack
+- git push -u originx master
+ 
+    
