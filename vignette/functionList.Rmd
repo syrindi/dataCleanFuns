@@ -1,0 +1,23 @@
+---
+title: "List of Data Clean Functions"
+author: "PJL"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+- searcher(term, df)
+    - determines the row and column of "term" in data.frame(data)
+    - output = 2,3
+        - row and column of the term in df
+        - case sensitive
+
+- cleanFileNames
+    - inputs a character string of file name
+    - remove "-~ '$"
+    - outputs in lowercase
+
+- removeEmptyLines
+    - inputs data frame
+    - removes empty rows and columns
+    - returns data frame
+

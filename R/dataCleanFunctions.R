@@ -8,7 +8,7 @@
 
 #' @export
 ## determines the row and column of "Term" in data.frame(data)
-searcherx = function(term, data)
+searcher = function(term, data)
 {
   loc1 = list()
   loc2 = list()
@@ -49,7 +49,7 @@ searcherx = function(term, data)
 
 #' @export
 # clean file names
-cleanFileNamex = function(x)
+cleanFileName = function(x)
 {
   a = gsub("[-~ ]", "", x)
   b = gsub("['$]", "", a)
