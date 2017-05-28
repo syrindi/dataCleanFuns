@@ -1,0 +1,10 @@
+Package: dataCleanFuns
+Type: Package
+Title: Data Cleaning Functions
+Version: 0.1.0
+Author: PJL
+Maintainer: PJL <pjleemd@gmail.com>
+Description:Collection of Functions for Data Cleaning
+License: GPL
+Encoding: UTF-8
+LazyData: true
